@@ -14,7 +14,10 @@ BrainMate AI combines:
 
 This repository provides a compact, opinionated reference for building a production-style AI agent that can reason, call external tools, and provide mental-health–oriented support through both web and messaging platforms. It is intended as a solid starting point for developers exploring safe LLM tooling, agent orchestration, and multi-channel deployment workflows.
 
-#### ❗Important Note: This project is for educational/demo purposes only and is not a substitute for professional mental health care. Do not rely on it for emergency situations.
+
+> [!IMPORTANT]  
+> This project is for educational/demo purposes only and is not a substitute for professional mental health care. Do not rely on it for emergency situations.
+
 
 ## 🖧 Technical Architecture
 ![Logo](https://github.com/user-attachments/assets/f248b3c6-6fc8-4852-87c9-e4a9b9c36cec)
@@ -178,10 +181,13 @@ TWILIO_FROM_NUMBER = "+1234567890"  # your Twilio phone or WhatsApp-enabled numb
 TWILIO_EMERGENCY_TO_NUMBER = "+1987654321"  # safety helpline / emergency contact
 ```
 
+
+> [!IMPORTANT]
 > **Security note:** Don’t commit real keys; use `.env` or environment variables in production.
 
-If you prefer environment variables, adapt `config.py` to read from `os.environ`.
 
+> [!NOTE]  
+> If you prefer environment variables, adapt `config.py` to read from `os.environ`.
 
 
 
